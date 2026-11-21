@@ -92,3 +92,35 @@ footer {
   color: var(--muted);
   font-size: 0.85rem;
 }
+
+/* About page */
+html.scroll, html.scroll body { overflow: auto; }
+.brand {
+  margin-right: auto;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+.brand a { text-decoration: none; }
+.brand a:hover { text-decoration: none; }
+.brand .a { color: var(--blue); }
+.brand .b { color: var(--red); }
+.about {
+  flex: 1;
+  width: min(40rem, 100%);
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+.about h1 {
+  margin: 0 0 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.about p {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--text);
+}
